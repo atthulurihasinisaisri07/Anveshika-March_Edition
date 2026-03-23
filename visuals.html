@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Dashboard | ANVESHIKA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Dashboard CSS -->
+    <link rel="stylesheet" href="assets/dashboard.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<header class="header">
+    <div class="navbar">
+        <h2>ANVESHIKA</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="visuals.html">Data</a>
+        </nav>
+    </div>
+</header>
+
+<section class="dashboard-container">
+
+    <!-- 1 Salary -->
+    <div class="dashboard-row">
+        <div class="graph-card">
+            <canvas id="salaryChart"></canvas>
+        </div>
+        <div class="content-card">
+            <h2>Experience vs Salary Growth</h2>
+<p>
+This visualization highlights the strong correlation between professional experience 
+and salary growth in the field of Data Science. As individuals gain deeper expertise 
+in machine learning, cloud computing, and AI-driven analytics, their market value 
+increases significantly.
+</p>
+
+<p>
+The steep rise after mid-level experience (4–5 years) reflects the transition from 
+technical execution roles to strategic and leadership positions. Organizations reward 
+professionals who can design scalable systems, lead data teams, and drive business 
+intelligence decisions.
+</p>
+
+<p>
+This trend emphasizes the importance of continuous learning, specialization, 
+and practical industry exposure for long-term career growth.
+</p>
+
+        </div>
+    </div>
+
+    <!-- 2 Industry -->
+    <div class="dashboard-row reverse">
+        <div class="graph-card">
+            <canvas id="industryChart"></canvas>
+        </div>
+        <div class="content-card">
+            <h2>Applications of Data Science Across Industries</h2>
+
+<p>
+Data Science is transforming multiple industries, with Finance and IT Services 
+leading in adoption. Financial institutions leverage AI for fraud detection, 
+risk modeling, and algorithmic trading.
+</p>
+
+<p>
+Healthcare is rapidly adopting predictive analytics for diagnostics and 
+treatment optimization, while E-commerce platforms rely heavily on 
+recommendation systems and customer behavior analysis.
+</p>
+
+<p>
+The distribution in this chart reflects how data-driven decision making 
+has become a cross-industry necessity rather than a niche capability.
+</p>
+
+        </div>
+    </div>
+
+    <!-- 3 Languages -->
+    <div class="dashboard-row">
+        <div class="graph-card">
+            <canvas id="languageChart"></canvas>
+        </div>
+        <div class="content-card">
+            <h2>Most Popular Programming Languages in Data Science</h2>
+
+<p>
+Python dominates the Data Science ecosystem due to its powerful libraries 
+such as NumPy, Pandas, Scikit-learn, TensorFlow, and PyTorch. Its simplicity 
+and flexibility make it ideal for both beginners and advanced practitioners.
+</p>
+
+<p>
+SQL remains essential for querying structured databases and managing 
+large-scale datasets. R is widely used in statistical modeling and 
+academic research.
+</p>
+
+<p>
+The graph clearly demonstrates that while new tools emerge, foundational 
+languages like Python and SQL continue to drive the industry.
+</p>
+
+        </div>
+    </div>
+
+    <!-- 4 Job Growth -->
+    <div class="dashboard-row reverse">
+        <div class="graph-card">
+            <canvas id="jobsChart"></canvas>
+        </div>
+        <div class="content-card">
+            <h2>Growth of AI & Data Science Jobs in India</h2>
+
+<p>
+The demand for AI and Data Science professionals in India has grown 
+exponentially over the past decade. Enterprises are investing heavily 
+in automation, predictive analytics, and intelligent systems.
+</p>
+
+<p>
+The sharp rise after 2022 indicates accelerated digital transformation 
+across sectors including fintech, healthcare, manufacturing, and 
+government services.
+</p>
+
+<p>
+This upward trend reflects India's emergence as a global AI innovation hub, 
+offering vast career opportunities for skilled data professionals.
+</p>
+
+        </div>
+    </div>
+
+</section>
+
+<footer class="footer">
+    © 2026 ANVESHIKA Magazine
+</footer>
+
+<script src="assets/dashboard.js"></script>
+
+</body>
+</html>
